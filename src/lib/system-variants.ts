@@ -28,7 +28,7 @@ export type SystemVariant = {
 };
 
 const PANEL_RE = /(لوح|ألواح|الواح|الوح|solar\s*panel|pv\s*module|bifacial)/i;
-const BATTERY_RE = /(بطار|battery|lifepo|ليثيوم)/i;
+const BATTERY_RE = /(بطار|battery|lifepo|ليثيوم|كبينة|كابينة|كبائن|راك|cabinet|rack)/i;
 /** أصناف تتبع عدد الألواح: الهياكل والقواعد وكوابل الـ DC والموصلات */
 const PANEL_LINKED_RE = /(هيكل|هياكل|قواعد|قاعدة|حوامل|حامل|structure|استركشر|mc4|موصل)/i;
 
